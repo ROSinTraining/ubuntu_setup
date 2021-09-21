@@ -21,7 +21,7 @@ sudo apt install -y ros-noetic-desktop-full
 
 echo "[Environment setup and getting rosinstall]"
 source /opt/ros/noetic/setup.sh
-sudo apt-get install python3-rosdep python3-rosinstall-generator python3-vcstool build-essential
+sudo apt-get install -y python3-rosdep python3-rosinstall-generator python3-vcstool build-essential
 
 echo "[Install Catkin tool]"
 sudo apt install -y python3-catkin-lint python3-pip
