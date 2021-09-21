@@ -3,7 +3,7 @@
 echo "[Update the package lists and upgrade them]"
 sudo apt update
 sudo apt upgrade -y
-sudo apt install curl -y
+sudo apt install curl terminator git -y
 
 echo "[-------------------------------------------------------> ROS <--------------------------------------------------------]"
 echo "[Add the ROS repository]"
